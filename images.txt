@@ -1,4 +1,4 @@
 nginx
---platform=linux/arm64,linux/amd64 openresty/openresty:alpine
---platform=linux/amd64,linux/arm64 neosmemo/memos:latest
---platform=linux/amd64,linux/arm64 neilpang/acme.sh:latest
+--platform=linux/arm64 openresty/openresty:alpine
+--platform=linux/arm64 neosmemo/memos:latest
+neilpang/acme.sh:latest
