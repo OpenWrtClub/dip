@@ -1,7 +1,7 @@
 nginx
 neilpang/acme.sh:latest
 openresty/openresty:alpine
-cloudflare/cloudflare:latest
+cloudflare/cloudflared:latest
 --platform=linux/arm64 openresty/openresty:alpine
 --platform=linux/arm64 neosmemo/memos:latest
 --platform=linux/arm64 neilpang/acme.sh:latest
