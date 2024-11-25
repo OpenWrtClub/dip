@@ -8,3 +8,4 @@ webpsh/webp-server-go:latest
 --platform=linux/arm64 neilpang/acme.sh:latest
 --platform=linux/arm64 cloudflare/cloudflared:latest
 --platform=linux/arm64 webpsh/webp-server-go:latest
+--platform=linux/arm64 vaultwarden/server:latest
