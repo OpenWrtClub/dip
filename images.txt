@@ -2,6 +2,7 @@ nginx
 neilpang/acme.sh:latest
 openresty/openresty:alpine
 cloudflare/cloudflared:latest
+neosmemo/memos:latest
 webpsh/webp-server-go:latest
 --platform=linux/arm64 openresty/openresty:alpine
 --platform=linux/arm64 neosmemo/memos:latest
