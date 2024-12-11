@@ -1,14 +1,1 @@
-nginx
-neilpang/acme.sh:latest
-openresty/openresty:alpine
-cloudflare/cloudflared:latest
-neosmemo/memos:latest
-webpsh/webp-server-go:latest
-ghcr.io/open-webui/open-webui:main
-ollama/ollama:latest
---platform=linux/arm64 openresty/openresty:alpine
---platform=linux/arm64 neosmemo/memos:latest
---platform=linux/arm64 neilpang/acme.sh:latest
---platform=linux/arm64 cloudflare/cloudflared:latest
---platform=linux/arm64 webpsh/webp-server-go:latest
---platform=linux/arm64 vaultwarden/server:latest
+ollama/ollama:rocm
